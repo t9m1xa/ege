@@ -15,5 +15,5 @@ for n in range (1,1000):
         s = '1' + s + '01'
     r = int(s,2)
     if r > 516:
-        print(n,r)
+        print(n,r) # n = 64 , r =
         break
