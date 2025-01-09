@@ -1,0 +1,3 @@
+from turtle import *
+screensize(2000,2000)
+k=20
