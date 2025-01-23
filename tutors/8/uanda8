@@ -1,0 +1,13 @@
+from itertools import*
+m,k=0,0
+r=0
+for i in product(sorted('АПТЕЧКА'),repeat=7):
+    s = ''.join(i)
+    r+=1
+    if s == 'АПТЕЧКА':
+        m = r
+    if s == 'ПЕЧАТКА':
+        k = r
+print(k-m-1)
+
+
