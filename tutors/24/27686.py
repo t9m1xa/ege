@@ -1,0 +1,7 @@
+f = open('C:/Users/t9m1x/Downloads/24_demo.txt').readline()
+f = f.replace('Y',' ')
+f = f.replace('Z',' ')
+f = f.replace('Y',' ')
+f = f.replace('Z',' ')
+s = f.split()
+print(max(len(x) for x in s))
