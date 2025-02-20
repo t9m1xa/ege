@@ -5,7 +5,7 @@ f = f.replace('C','S')
 f = f.replace('D','S')
 f = f.replace('F','S')
 f = f.replace('SG','*')
-print(f[100:200])
+
 k , m = 0,0
 for i in range(len(f)):
     if f[i] == '*':
